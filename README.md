@@ -1,3 +1,6 @@
+# Custom modification
+Compared to original repo, emitting of all metrics via Cloudwatch Container Insights have been disabled to reduce cost. Metrics can be still be created from performance log group via metric filter.
+See original issue here - https://github.com/aws/amazon-cloudwatch-agent/issues/103#ref-commit-53070f9
 # Amazon CloudWatch Agent
 The Amazon CloudWatch Agent is software developed for the [CloudWatch Agent](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html)
 

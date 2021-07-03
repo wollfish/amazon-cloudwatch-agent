@@ -10,7 +10,7 @@ RUN mkdir -p /go/src/github.com/aws/amazon-cloudwatch-agent/
 WORKDIR /go/src/github.com/aws/amazon-cloudwatch-agent/
 
 ARG GO111MODULE="on"
-ENV GO111MODULE=${GO111MODULE}
+ENV GO111MODULE=${GO111MODULE} GOPROXY=https://goproxy.io
 
 COPY . /go/src/github.com/aws/amazon-cloudwatch-agent/
 RUN make build-for-docker-${TARGETARCH}
