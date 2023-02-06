@@ -54,18 +54,18 @@ require (
 	github.com/prometheus/common v0.9.1
 	github.com/prometheus/prometheus v1.8.2-0.20200420081721-18254838fbe2
 	github.com/shirou/gopsutil v2.20.5+incompatible
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	github.com/xeipuuv/gojsonschema v1.2.0
-	golang.org/x/net v0.0.0-20200301022130-244492dfa37a
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a
-	golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527
-	golang.org/x/text v0.3.2
+	golang.org/x/sys v0.0.0-20201112073958-5cba982894dd
+	golang.org/x/text v0.3.4
 	gopkg.in/fsnotify.v1 v1.4.7
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.17.4
-	k8s.io/apimachinery v0.17.4
-	k8s.io/client-go v0.17.4
+	k8s.io/api v0.20.0
+	k8s.io/apimachinery v0.20.0
+	k8s.io/client-go v0.20.0
 	k8s.io/klog v1.0.0
 )
